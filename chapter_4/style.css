@@ -1,0 +1,9 @@
+.success {
+  color: green;
+  border: 1px green solid;
+}
+
+.error {
+  color: red;
+  border: 1px red solid;
+}
