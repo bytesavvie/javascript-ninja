@@ -1,0 +1,25 @@
+// CLONING REPO
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+// ADDING REMOTE (LOCAL REPO)
+
+git remote add origin https://github.com/user/repo.git
+git remote -v
+
+// REMOVING REMOTE
+
+git remote remove origin
+git remote -v
+
+// Initializing Local Dir as a Git Repo
+
+git init
+
+// ADDING FILE/ALL FILES TO REPO
+git add --all / git add filename / git add .
+git commit -m "<commit message>"
+git push -u origin master
+
+// UPDATE CHANGES TO LOCAL DONE IN GITHUB REPO
+git pull origin master
