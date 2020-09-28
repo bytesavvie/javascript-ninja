@@ -31,14 +31,14 @@
 
 // ARROW FUNCTIONS!!!!!!!!!!!
 
-// const calcArea = (radius) => {
-//   return round(Math.PI * radius ** 2, 1);
-// };
+const calcArea = (radius) => {
+  return round(Math.PI * radius ** 2, 1);
+};
 
-// const calcArea = (radius) => round(Math.PI * radius ** 2, 1);
+const calcArea = (radius) => round(Math.PI * radius ** 2, 1);
 
-// const area = calcArea(5);
-// console.log('area is:', area);
+const area = calcArea(5);
+console.log('area is:', area);
 
 // FUNCTIONS VS METHODS
 
