@@ -44,11 +44,13 @@ ul.addEventListener('click', (e) => {
 
 // I added myFunc() as fix for not removing new li elements // commented out
 
+// -- BUBBLING --
 // When an event occurs, it becomes event target
 // That event then bubbles up the DOM from event target to parent, in this
 // case ul, then it fires up call back func for that event listener if
 // it has it, thats called event BUBBLING
 
+// -- Event Delegation --
 // Adding eventlisteners to new li-s and many li-s can slow down the program
 // Event Delegation is useful for this
 // You can target child elements with events attached to parent element
