@@ -1,0 +1,29 @@
+                            ASYNC JavaScript
+
+Governs how we perform tasks which take some time to complete.
+
+START SOMETHING NOW AND FINISH LATER
+
+JavaScript is a sync language. Execute one statement at a time.
+JavaScript is a Single Threaded language. Thread is ordered
+sequance of statements. If one statement takes time, it stalls the time,
+blocks the code. This is where Async code comes.
+
+Since the statement is finishing later, we pass it a callback function as a
+paramater, that callback runs and finishes later on, once the request is
+complete.
+
+We have the que, this time when we come to that statement, browser takes
+that request and handels it outside of the scope of single thread, in another
+part of the browser. Also takes callback function to execute when the data
+comes back. Beacuse it has been taken out of the thread, javascript can
+carry on down the que. When it recives the data back and once the rest of the
+functions have been executed, then we are allowed to call callback function
+and finish the original function.
+
+                            HTTP Requests
+
+We make requests to get data from another server.
+These requests are made to API endpoints. Endpoints are URL's that API or
+server exposes. Servers responses with a response(data). We typically
+get back selection of data in format of JSON.
