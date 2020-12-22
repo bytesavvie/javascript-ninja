@@ -27,3 +27,11 @@ We make requests to get data from another server.
 These requests are made to API endpoints. Endpoints are URL's that API or
 server exposes. Servers responses with a response(data). We typically
 get back selection of data in format of JSON.
+
+XMLHttpRequest() creates request object.
+Works with any kind of data.
+This is used to send request to browsers, built in JS.
+It has many methods.
+open() method first fakes string, what method we are using, second
+argument is where we want to make request to, what is the endpoint.
+To send the request: request.send();
