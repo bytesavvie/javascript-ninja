@@ -1,0 +1,15 @@
+{
+  "presets": ["@babel/preset-env"]
+}
+
+// npm init
+// npm install @babel/core @babel/cli --save-dev
+// npm install @babel/core @babel/cli --save-dev
+// npm install @babel/preset-env --save-dev
+// then make this file here
+
+// node_modules/.bin/babel before.js -o after.js
+// -w after before.js shown above, watchs the changes of file
+
+//updated:
+//npx babel script.js --watch --out-file script-compiled.js
