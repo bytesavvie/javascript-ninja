@@ -1,12 +1,7 @@
-const func = (name) => {
-  console.log(`My name is ${name}`);
-};
+// import { styleBody, addTitle, contact } from './dom';
+import users, { getPremUsers } from './data';
 
-func(Aleksa);
-func(Pera);
+const premUsers = getPremUsers(users);
+console.log(users, premUsers);
 
-class User {
-  constructor() {
-    this.score = 0;
-  }
-}
+console.log('test 2');

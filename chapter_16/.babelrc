@@ -13,3 +13,4 @@
 
 //updated:
 //npx babel script.js --watch --out-file script-compiled.js
+//"babel": "npx babel src/index.js --watch --out-file dist/assets/bundle.js",
